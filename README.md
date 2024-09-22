@@ -1,6 +1,6 @@
 # Praktikum Pemrograman Berorientasi Object
 
-### Daftar Materi
+### 1. Daftar Materi
 
 1. [Class, Object, Data Type and Constructor](https://github.com/Monashr/PBO-2024-main/blob/master/W01_Class/Materi.md)
 2. Inheritance
@@ -16,7 +16,7 @@
 12. File I/O Operation
 13. Final Projek
 
-### Kontrak Praktikum
+### 2. Kontrak Praktikum
 
 1. Waktu praktikum: 16.25 WIB - 18.00 WIB (max)
 2. Soal nilai bisa dibicarakan, yang penting ngerjain tugas dan tidak tipsen :)
@@ -24,7 +24,7 @@
 4. Dilarang meng-copas codingan punya teman
 5. Telat -1 per ~~jam~~ hari
 
-### Rencana Tugas
+### 3. Rencana Tugas
 
 Pilih salah satu dari beberapa tema berikut:
 
@@ -49,7 +49,7 @@ Buat program berdasarkan tema tersebut mulai dari week 01 sampai responsi pertam
 
 Tujuan: meringankan beban :v
 
-### Pertanyaan dan Jawaban
+### 4. Pertanyaan dan Jawaban
 
 - Apakah tema boleh sama dengan lainnya? <br>
   Jawab: boleh, bahkan boleh bekerja sama, **tetapi harus terdapat perbedaan baik dari segi kode maupun fitur**
@@ -69,7 +69,11 @@ Tujuan: meringankan beban :v
 - Mas/mbak, aku ga bisa ngumpulin tugas sekarang, aku ga bisa ikut kelas, aku ga bisa ... <br>
   Jawab: langsung pc asisten aja yaa
 
-### Asisten
+## Kode Classroom
+
+`tzccb2k`
+
+## Asisten
 
 | Nama                 | Github                                          |
 | -------------------- | ----------------------------------------------- |
