@@ -71,7 +71,7 @@ Tujuan: meringankan beban :v
 
 ### Asisten
 
-| Nama              | Github                                          |
-| ----------------- | ----------------------------------------------- |
-| Reni              | [reni](https://github.com/rizalanggoro)         |
-| Rizal Dwi Anggoro | [rizalanggoro](https://github.com/rizalanggoro) |
+| Nama                 | Github                                          |
+| -------------------- | ----------------------------------------------- |
+| Reni Uswatun Hasanah | [ReniUswatun](https://github.com/ReniUswatun)   |
+| Rizal Dwi Anggoro    | [rizalanggoro](https://github.com/rizalanggoro) |
