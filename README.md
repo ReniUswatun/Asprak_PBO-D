@@ -1,5 +1,9 @@
 # Praktikum Pemrograman Berorientasi Object
 
+### Tutorials
+
+- [Setup IntelliJ IDEA](tutorials/setup-intellij.md)
+
 ### Daftar Materi
 
 1. [Class, Object, Data Type and Constructor](https://github.com/Monashr/PBO-2024-main/blob/master/W01_Class/Materi.md)
@@ -68,6 +72,9 @@ Tujuan: meringankan beban :v
 
 - Mas/mbak, aku ga bisa ngumpulin tugas sekarang, aku ga bisa ikut kelas, aku ga bisa ... <br>
   Jawab: langsung pc asisten aja yaa
+
+- Kenapa IntelliJ? <br>
+  Jawab: sebenernya bebas, mau pake apa aja, tetapi disarankan menggunakan IDE supaya ngoding jauh lebih nyaman. Contoh IDE (Eclipse, NetBeans, IntelliJ, dll)
 
 ## Kode Classroom
 
