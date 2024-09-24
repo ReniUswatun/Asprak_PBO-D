@@ -1,6 +1,6 @@
 # Tugas pertemuan minggu ke-1
 
-Buatlah program yang mengimplementasikan Kelas, Objek, Metode, Paket, dan Konstruktor dengan tema-tema berikut:
+Buatlah program yang mengimplementasikan Class, Object, Data Type, Method, Package dan Constructor dengan tema-tema berikut:
 
 1. Layanan Kesehatan
 2. Pendidikan

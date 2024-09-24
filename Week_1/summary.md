@@ -11,9 +11,9 @@
 Untuk menambahkan method main dengan cepat, dapat menggunakan snippet. Ketikkan **"psvm"** lalu tekan Enter.
 
 Ini akan otomatis menghasilkan struktur method main.
-![image class1](./image/image.png)
+![image class1](./image/class-2.png)
 Maka main method akan terbentuk.
-![image class2](./image/image-1.png)
+![image class2](./image/class-1.png)
 
 ### Object
 
