@@ -3,6 +3,7 @@
 ### Tutorials
 
 - [Setup IntelliJ IDEA](tutorials/setup-intellij.md)
+- [Setup VS Code](tutorials/setup-vscode.md)
 
 ### Daftar Materi
 
