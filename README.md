@@ -8,7 +8,7 @@
 ### Daftar Materi
 
 1. [Class, Object, Data Type and Constructor](https://github.com/Monashr/PBO-2024-main/blob/master/W01_Class/Materi.md)
-2. Inheritance
+2. [Inheritance](https://github.com/Monashr/PBO-2024-main/blob/master/W02_Inheritance/Materi.md)
 3. Encapsulation
 4. Polymorphism
 5. Exception
