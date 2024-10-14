@@ -1,9 +1,9 @@
 package com.todo.entities;
 
 public class Todo {
-    String title;
-    String description;
-    boolean isCompleted;
+    private String title;
+    private String description;
+    private boolean isCompleted;
 
     /**
      * constructor digunakan untuk meng-assign nilai attribute dari object
@@ -11,6 +11,9 @@ public class Todo {
      * constructor pertama hanya membutuhkan parameter title,
      * sedangkan constructor kedua membutuhkan parameter title dan description
      */
+    public Todo() {
+    }
+
     public Todo(String title) {
         this.title = title;
     }
@@ -35,5 +38,29 @@ public class Todo {
 
     public void markAsDone() {
         this.isCompleted = true;
+    }
+
+    public void setTitle(String title) {
+        this.title = title;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
+    public void setCompleted(boolean isCompleted) {
+        this.isCompleted = isCompleted;
+    }
+
+    public String getTitle() {
+        return title;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public boolean isCompleted() {
+        return isCompleted;
     }
 }
