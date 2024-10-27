@@ -10,8 +10,8 @@
 1. [Class, Object, Data Type and Constructor](https://github.com/Monashr/PBO-2024-main/blob/master/W01_Class/Materi.md)
 2. [Inheritance](https://github.com/Monashr/PBO-2024-main/blob/master/W02_Inheritance/Materi.md)
 3. [Encapsulation](https://github.com/Monashr/PBO-2024-main/blob/master/W03_Enkapsulasi/Materi.md)
-4. Polymorphism
-5. Exception
+4. [Polymorphism](https://github.com/Monashr/PBO-2024-main/blob/master/W04_Polymorphism/Materi.md)
+5. [Exception & Assertion](https://github.com/Monashr/PBO-2024-main/blob/master/W05_Exception-and-Assertion/Materi.md)
 6. Abstract class & Interface
 7. Java GUI
 8. Generics & Collections
