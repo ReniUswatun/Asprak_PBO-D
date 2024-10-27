@@ -26,12 +26,15 @@ public class TodoRepository {
     this.todos[3] = priorityTodo;
   }
 
-  public boolean create(int index, Todo todo) {
+  public boolean create(int index, Todo todo) throws Exception {
     if (index >= 0 && index < this.length) {
+      if (todo.getTitle().isEmpty())
+        throw new Exception("Judul tidak boleh kosong!");
+
       this.todos[index] = todo;
       return true;
     } else
-      return false;
+      throw new Exception("Index tidak valid!");
   }
 
   public Todo[] getAll() {

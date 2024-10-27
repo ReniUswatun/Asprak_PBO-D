@@ -69,23 +69,27 @@ public class Main {
             priority = this.scanner.nextInt();
         }
 
-        if (type == 1) {
-            Todo todo = new Todo();
-            todo.setTitle(title);
-            todo.setDescription(description);
-            todo.setCompleted(false);
+        try {
+            if (type == 1) {
+                Todo todo = new Todo();
+                todo.setTitle(title);
+                todo.setDescription(description);
+                todo.setCompleted(false);
 
-            if (!this.repository.create(index, todo))
-                System.out.println("Gagal menambahkan todo!\n");
-        } else {
-            PriorityTodo todo = new PriorityTodo();
-            todo.setTitle(title);
-            todo.setDescription(description);
-            todo.setCompleted(false);
-            todo.setPriority(priority);
+                if (this.repository.create(index, todo))
+                    System.out.println("Berhasil menambahkan todo!\n");
+            } else {
+                PriorityTodo todo = new PriorityTodo();
+                todo.setTitle(title);
+                todo.setDescription(description);
+                todo.setCompleted(false);
+                todo.setPriority(priority);
 
-            if (!this.repository.create(index, todo))
-                System.out.println("Gagal menambahkan todo!\n");
+                if (this.repository.create(index, todo))
+                    System.out.println("Berhasil menambahkan todo!\n");
+            }
+        } catch (Exception e) {
+            System.out.println("Error: " + e.getMessage());
         }
     }
 
@@ -126,5 +130,4 @@ public class Main {
         if (!this.repository.delete(index))
             System.out.println("Gagal menghapus todo!\n");
     }
-
 }
