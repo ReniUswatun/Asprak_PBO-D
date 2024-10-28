@@ -4,11 +4,12 @@ import java.util.Scanner;
 
 import com.asprak.todo.data.entities.PriorityTodo;
 import com.asprak.todo.data.entities.Todo;
-import com.asprak.todo.data.repositories.TodoRepository;
+import com.asprak.todo.data.repositories.TodoRepositoryImpl;
+import com.asprak.todo.domain.repositories.TodoRepository;
 
 public class Main {
     private final Scanner scanner = new Scanner(System.in);
-    private final TodoRepository repository = new TodoRepository();
+    private final TodoRepository repository = new TodoRepositoryImpl();
 
     public static void main(String[] args) {
         Main main = new Main();

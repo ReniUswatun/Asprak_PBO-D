@@ -2,13 +2,14 @@ package com.asprak.todo.data.repositories;
 
 import com.asprak.todo.data.entities.PriorityTodo;
 import com.asprak.todo.data.entities.Todo;
+import com.asprak.todo.domain.repositories.TodoRepository;
 
-public class TodoRepository {
+public class TodoRepositoryImpl implements TodoRepository {
   // untuk sementara hanya dapat menampung maksimal 10 todos
   private final int length = 10;
   private Todo[] todos = new Todo[length];
 
-  public TodoRepository() {
+  public TodoRepositoryImpl() {
     Todo todo = new Todo();
     todo.setTitle("random title");
     todo.setDescription("desc todo biasa");
@@ -26,6 +27,7 @@ public class TodoRepository {
     this.todos[3] = priorityTodo;
   }
 
+  @Override
   public boolean create(int index, Todo todo) throws Exception {
     if (index >= 0 && index < this.length) {
       if (todo.getTitle().isEmpty())
@@ -37,10 +39,12 @@ public class TodoRepository {
       throw new Exception("Index tidak valid!");
   }
 
+  @Override
   public Todo[] getAll() {
     return this.todos;
   }
 
+  @Override
   public boolean updateCompleted(int index) {
     if (index >= 0 && index < this.length) {
       Todo current = this.todos[index];
@@ -53,6 +57,7 @@ public class TodoRepository {
       return false;
   }
 
+  @Override
   public boolean delete(int index) {
     if (index >= 0 && index < this.length) {
       this.todos[index] = null;
