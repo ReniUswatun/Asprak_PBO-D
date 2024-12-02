@@ -12,11 +12,11 @@
 3. [Encapsulation](https://github.com/Monashr/PBO-2024-main/blob/master/W03_Enkapsulasi/Materi.md)
 4. [Polymorphism](https://github.com/Monashr/PBO-2024-main/blob/master/W04_Polymorphism/Materi.md)
 5. [Exception & Assertion](https://github.com/Monashr/PBO-2024-main/blob/master/W05_Exception-and-Assertion/Materi.md)
-6. Abstract class & Interface
-7. Java GUI
-8. Generics & Collections
-9. String Operations
-10. Inner Classes
+6. [Abstract class & Interface](https://github.com/Monashr/PBO-2024-main/blob/master/W06_Abstract_Interface/Materi.md)
+7. [Java GUI](https://github.com/Monashr/PBO-2024-main/blob/master/W07_GUI-Programming/Materi.md)
+8. [Generics & Collections](https://github.com/Monashr/PBO-2024-main/blob/master/W08_Array_and_Collection/Materi.md)
+9. [String Operations](https://github.com/Monashr/PBO-2024-main/blob/master/W09_Char-and-String/materi.md)
+10. [Inner Classes](https://github.com/Monashr/PBO-2024-main/blob/master/W10_Inner-Classes/materi.md)
 11. Multithreading
 12. File I/O Operation
 13. Final Projek
